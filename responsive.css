@@ -1,0 +1,241 @@
+ @media screen and (max-width: 895px) {
+
+
+     .service_container {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .service_content {
+         width: 100%;
+         margin: 20px 30px;
+     }
+
+     .service_img img {
+         width: 100%;
+     }
+
+     .contact_container {
+         flex-direction: column;
+         margin: 50px auto;
+     }
+
+     .side_box {
+         width: 100%;
+         position: static;
+     }
+
+     .contact_form {
+         margin-top: 160px;
+         padding-bottom: 20px;
+     }
+
+     form {
+         width: 100%;
+     }
+
+     .footer_container {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .footer02 {
+         display: flex;
+         justify-content: center;
+         width: 100%;
+         margin: 20px auto;
+         flex-wrap: wrap;
+         gap: 20px 0px;
+     }
+
+     .card {
+         margin: 10px auto;
+     }
+
+     .footer01 {
+         width: 100%;
+     }
+
+     .submit_btn {
+         width: 100%;
+     }
+ }
+
+ @media screen and (max-width: 850px) {
+     .about {
+         flex-direction: column;
+     }
+
+     .about_container {
+         width: 95%;
+         margin: 20px auto;
+     }
+
+     .about_img {
+         width: 100%;
+         margin: 0px auto;
+
+     }
+
+     .about_img img {
+         width: 100%;
+         height: 700px;
+     }
+
+     .home_image img {
+         width: 100%;
+         height: 500px;
+     }
+
+
+
+ }
+
+ @media screen and (max-width: 450px) {}
+
+ @media screen and (max-width: 577px) {
+     .section02 {
+         height: max-content;
+     }
+
+     .about_title {
+         text-align: center;
+     }
+
+     .about_container h4 {
+         margin: 30px auto 10px auto;
+     }
+
+     .about_skills {
+         justify-content: center;
+     }
+ }
+
+ @media screen and (max-width: 644px) {
+     .exp_content {
+         border-right: none;
+         width: 90%;
+         margin: 0px auto;
+     }
+ }
+
+ @media screen and (max-width: 729px) {
+     .project_content {
+         width: 90%;
+     }
+
+     .flip-card-front,
+     .flip-card-back {
+         width: 100%;
+     }
+ }
+
+ @media (max-width: 991.98px) {
+     .contact {
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -webkit-flex-direction: column;
+         -ms-flex-direction: column;
+         flex-direction: column;
+         padding: 20px;
+     }
+
+     .contact .form {
+         margin: 0 0 20px 0;
+         padding: 0;
+         border-right: 0;
+     }
+
+     .contact .contact-infos {
+         margin: 20px auto;
+     }
+ }
+
+ @media only screen and (max-width: 767px) {
+     /* Section: History */
+
+     .timeline {
+         margin: 30px 0 0;
+     }
+
+     .timeline:before {
+         left: 88%;
+     }
+
+     .timeline>li+li {
+         margin-top: 30px;
+     }
+
+     .timeline>li.timeline-start .rectangle,
+     .timeline>li.timeline-end .rectangle {
+         left: 38%;
+     }
+
+     .timeline>li>.timeline-panel {
+         width: 88%;
+     }
+
+     .timeline>li>.timeline-panel .timeline-heading p {
+         font-size: 12px;
+     }
+
+     .timeline>li>.timeline-panel .timeline-heading .timeline-date,
+     .timeline>li>.timeline-panel .timeline-heading .timeline-position {
+         padding: 0 8px;
+     }
+
+     .timeline>li>.timeline-panel .timeline-heading .timeline-date {
+         float: left;
+     }
+
+     .timeline>li .timeline-rectangle {
+         left: 76%;
+     }
+
+     .timeline>li.timeline-inverted .timeline-heading {
+         text-align: left;
+     }
+
+     .timeline>li.timeline-inverted .timeline-date {
+         float: left;
+     }
+
+     .timeline>li.timeline-inverted>.timeline-panel {
+         float: left;
+         padding: 0 10px 0 0;
+     }
+
+     .timeline>li.timeline-inverted>.timeline-panel:before {
+         left: auto;
+         right: 0;
+     }
+ }
+
+ @media only screen and (max-width: 479px) {
+     .timeline {
+         margin: 30px 0 0;
+     }
+
+     .timeline:before {
+         left: 50%;
+     }
+
+     .timeline>li.timeline-start .rectangle,
+     .timeline>li.timeline-end .rectangle {
+         left: auto;
+     }
+
+     .timeline>li>.timeline-panel {
+         background-color: #f6f6f6;
+         width: 100%;
+         padding-right: 0;
+     }
+
+     .timeline>li .timeline-panel:before {
+         content: none;
+     }
+
+     .timeline>li .timeline-rectangle {
+         disply: none;
+     }
+ }
